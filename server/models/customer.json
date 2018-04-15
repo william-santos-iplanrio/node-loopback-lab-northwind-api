@@ -1,0 +1,58 @@
+{
+  "name": "Customer",
+  "plural": "Customers",
+  "base": "PersistedModel",
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "customerId": {
+      "type": "string",
+      "required": true,
+      "id": true
+    },
+    "companyName": {
+      "type": "string",
+      "required": true
+    },
+    "contactName": {
+      "type": "string",
+      "required": true
+    },
+    "contactTitle": {
+      "type": "string",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "region": {
+      "type": "string"
+    },
+    "postalCode": {
+      "type": "string",
+      "required": true
+    },
+    "country": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "fax": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
